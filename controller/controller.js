@@ -1,4 +1,4 @@
-const connection = require("../config/database");
+const connection = require("../database");
 
 exports.createTable = (req,res)=>{
     const createFarmerone = 'CREATE TABLE farmerOne (id int AUTO_INCREMENT, NAME VARCHAR(50),PRIMARY KEY(id))';
